@@ -1,0 +1,6 @@
+config BR2_PACKAGE_POWER_DOWN_MODULE
+        bool "power down kernel_module"
+        depends on BR2_LINUX_KERNEL
+        help
+                Linux Kernel Power down.
+
